@@ -1,12 +1,15 @@
   /____1______/ 
-alert(20);
+  let data = "20";
+  alert('data');
 
 /_____2_______/ 
-alert('2007год');
+let iphone = "2007год"
+alert('iphone');
 
 
 /____3_____/ 
-alert('Бренданом Айком');
+let name = "Бренданом Айком"
+alert('name');
 
 /___4___/ 
 alert(10+2);
@@ -45,7 +48,7 @@ Admin: true
 
 user["city of residence"] ="SBP";
 const key = 'age';
-user.key = "20";
+user[key] = "20";
 delete user["city of residence"]
 
 let info = Number(prompt("which info of user \n do you want toknow? \n 1 - name \n 2 - age \n 3 - admin?"));
