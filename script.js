@@ -1,57 +1,81 @@
-  /____1______/ 
-  let data = "20";
-  alert('data');
+// _____1_____
 
-/_____2_______/ 
-let iphone = "2007год"
-alert('iphone');
+let password = '123456';
+prompt('введите пароль');
 
+let message;
+if(password === 123456) {
+    message = "Пароль введен верно";
+} else {
+    message = "Пароль введен неправильно";
+}
+alert(message);
 
-/____3_____/ 
-let name = "Бренданом Айком"
-alert('name');
+// ____2____
 
-/___4___/ 
-alert(10+2);
-alert(10-2);
-alert(10*2);
-alert(10/2);
+let input, number;
+while (true) {
+input = prompt("Ввод любого числа (до 10):");
+number = +input;
+if (number === parseFloat(input) && number <= 10)break;
+}
+if (number > 0 && number <= 10)
+alert("Верно");
+else
+alert("Неверно");
 
-/___5___/
-alert(2**5);
+// ___3___
 
-/___6___/
-alert( 9 % 2 );
+let d = '50';
+let e = '12';
 
-/___7___/
-let num = 1;
-num += 5;
-num -= 3;
-num *= 7;
-num /= 3;
-num++;
-num--;
-alert(num);
+if(d > '100' || e > '100');
+alert('верно');
+if(d < '100' || e < '100');
+alert('неверно');
 
-/___8___/
+// ___4___
+let a = '2';
+let b = '3';
+alert(2 + 3);
 
-let age = prompt('Сколько вам лет?');
-alert(age);
+// ___5___
+let monthNumber12 = String(prompt('Номер месяца'));
 
-/___9___/
-
-let user ={
-name: 'Egor',
-age: 26,
-Admin: true
-};
-
-user["city of residence"] ="SBP";
-const key = 'age';
-user[key] = "20";
-delete user["city of residence"]
-
-let info = Number(prompt("which info of user \n do you want toknow? \n 1 - name \n 2 - age \n 3 - admin?"));
-
-var result = prompt ('Ваше имя?');
-alert('Привет,' + result);
+switch (monthNumber12) {
+    case '01':
+        console.log('Первый месяц, он же январь, сезон зима');
+        break;
+    case '02':
+        console.log('Второй месяц, он же февраль, сезон зима');
+        break;
+    case '03':
+        console.log('Третий месяц, он же март, сезон весна');
+        break;
+    case '04':
+        console.log('Черверты месяц, он же апрель, сезон весна');
+        break;
+    case '05':
+        console.log('Пятый месяц, он же май, сезон весна');
+        break;
+    case '06':
+        console.log('Шестой месяц, он же июнь, сезон лето');
+        break;
+    case '07':
+        console.log('Седьмой месяц, он же июль, сезон лето');
+        break;
+    case '08':
+        console.log('Восьмой месяц, он же август, сезон лето');
+    case '09':
+        console.log('Девятый месяц, он же сентябрь, сезон осень');
+    case '10':
+        console.log('Десятый месяц, он же октябрь, сезон осень');
+        break;
+    case '11':
+        console.log('Одиннадцатый месяц, он же ноябрь, сезон осень');
+    case '12':
+        console.log('Двенацатый месяц, он же декабрь, сезон зима');
+    default:
+    console.log('Такого месяца не существует')
+        break;
+}

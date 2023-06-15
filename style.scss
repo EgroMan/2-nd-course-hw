@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: "Montserrat" sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 720px);
+  padding-right: calc(50% - 720px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  width: 100%;
+  height: 1024px;
+  background-image: url(image/Rectangle\ 1.jpg);
+  background-position: center;
+}
+
+.header {
+  padding-top: 217px;
+  padding-bottom: 32px;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+  width: 610px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+.top_text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #9e9e9e;
+  width: 420px;
+  height: 64px;
+  align-items: center;
+}
+
+.colortext {
+  color: #FFFFFF;
+}
+
+.button {
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234.06px;
+  height: 48.6px;
+  margin-top: 44px;
+}
+
+.buttontext {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding-left: 74px;
+  padding-right: 74px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.middle {
+  background-image: url(image/Rectangle\ 5.jpg);
+  background-position: center;
+  width: 100%;
+  height: 556px;
+  background: #000915;
+  display: flex;
+  gap: 32px;
+  padding-top: 128px;
+  justify-content: center;
+}
+
+.game1__img {
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 379px;
+  height: 300px;
+  background: url(./image/Rectangle\ 6.svg);
+}
+
+.game2__img {
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 379px;
+  height: 300px;
+  background: url(./image/Rectangle\ 7.svg);
+}
+
+.game3__img {
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 379px;
+  height: 300px;
+  background: url(./image/Rectangle\ 8.svg);
+}
+
+.game__text {
+  width: 84px;
+  height: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+  margin-left: 32px;
+}
+
+.middle_centre {
+  background-image: url(image/Rectangle\ 6.jpg);
+  width: 100%;
+  height: 800px;
+  background: #000915;
+  display: flex;
+  gap: 32px;
+  padding-left: 120px;
+  padding-right: 116px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.middle_text {
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.middle_text2 {
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+
+}
+
+.top_text2 {
+  width: 1200px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.button2 {
+  margin-left: 608px;
+  margin-right: 598px;
+}
+
+.middle_image {
+  width: 485px;
+  height: 333px;
+}
+
+.middle_footer {
+  background-image: url(image/unsplash_iO0I6-mhDEY.svg);
+  width: 100%;
+  height: 800px;
+  display: flex;
+  gap: 32px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-position: center;
+}
+
+.footer {
+  background-image: url(image/Rectangle\ 9.svg);
+  width: 100%;
+  height: 80px;
+  background: #000915;
+}
+
+.footer_text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+// Мобильная версия!!!
+
+}
+@import 'mobile';
