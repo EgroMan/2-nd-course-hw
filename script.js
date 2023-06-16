@@ -4,7 +4,7 @@ let password = '123456';
 prompt('введите пароль');
 
 let message;
-if(password === 123456) {
+if(password != 123456) {
     message = "Пароль введен верно";
 } else {
     message = "Пароль введен неправильно";
@@ -13,11 +13,11 @@ alert(message);
 
 // ____2____
 
-let input, number;
+let isNaN, number;
 while (true) {
-input = prompt("Ввод любого числа (до 10):");
-number = +input;
-if (number === parseFloat(input) && number <= 10)break;
+isNaN = prompt("Ввод любого числа (до 10):");
+number = +isNaN;
+if (number === parseFloat(isNaN) && number <= 10)break;
 }
 if (number > 0 && number <= 10)
 alert("Верно");
@@ -29,10 +29,11 @@ alert("Неверно");
 let d = '50';
 let e = '12';
 
-if(d > '100' || e > '100');
-alert('верно');
-if(d < '100' || e < '100');
-alert('неверно');
+if ((d > 100 && d < 0) || (e >= 100 && e < 100)) {
+    alert('Верно')
+} else {
+    alert('Неверно')
+}
 
 // ___4___
 let a = '2';
@@ -43,30 +44,30 @@ alert(2 + 3);
 let monthNumber12 = String(prompt('Номер месяца'));
 
 switch (monthNumber12) {
-    case '01':
+    case '1':
         console.log('Первый месяц, он же январь, сезон зима');
         break;
-    case '02':
+    case '2':
         console.log('Второй месяц, он же февраль, сезон зима');
         break;
-    case '03':
+    case '3':
         console.log('Третий месяц, он же март, сезон весна');
         break;
-    case '04':
+    case '4':
         console.log('Черверты месяц, он же апрель, сезон весна');
         break;
-    case '05':
+    case '5':
         console.log('Пятый месяц, он же май, сезон весна');
         break;
-    case '06':
+    case '6':
         console.log('Шестой месяц, он же июнь, сезон лето');
         break;
-    case '07':
+    case '7':
         console.log('Седьмой месяц, он же июль, сезон лето');
         break;
-    case '08':
+    case '8':
         console.log('Восьмой месяц, он же август, сезон лето');
-    case '09':
+    case '9':
         console.log('Девятый месяц, он же сентябрь, сезон осень');
     case '10':
         console.log('Десятый месяц, он же октябрь, сезон осень');
