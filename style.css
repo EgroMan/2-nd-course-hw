@@ -2,9 +2,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-repeat: no-repeat;
 }
 
+@keyframes myAni3 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+  5% {
+    animation-timing-function: ease-in;
+    transform: scale(1.04);
+  }
+  15% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+  25% {
+    animation-timing-function: ease-in;
+    transform: scale(1.24);
+  }
+  38% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+  52% {
+    animation-timing-function: ease-in;
+    transform: scale(1.5);
+  }
+  70% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: scale(7);
+  }
+}
 body {
   font-family: "Montserrat" sans-serif;
 }
@@ -21,7 +58,7 @@ a {
 .top {
   width: 100%;
   height: 1024px;
-  background-image: url(image/Rectangle\ 1.jpg);
+  background-image: url(image/Rectangle\ 1.svg);
   background-position: center;
 }
 
@@ -63,6 +100,14 @@ a {
   width: 234.06px;
   height: 48.6px;
   margin-top: 44px;
+}
+
+.button:hover {
+  animation: myAni3 1s ease 0s 1 normal forwards;
+}
+
+.button2:hover {
+  animation: myAni3 1s ease 0s 1 normal forwards;
 }
 
 .buttontext {
@@ -183,8 +228,8 @@ a {
 }
 
 .middle_footer {
-  background-image: url(image/unsplash_iO0I6-mhDEY.svg);
-  width: 100%;
+  background-image: url(image/unsplash_iO0I6-mhDEY.jpg);
+  min-width: 1440px;
   height: 800px;
   display: flex;
   gap: 32px;
