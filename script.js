@@ -1,27 +1,23 @@
 // 1\
-let a = 2;
-let n =Number(prompt('Привет'));
-
-while (a = n){
-    alert('Привет');
-    i++;
-}
+for (var i = 0; i < 2; i++) {
+    console.log(i + "Привет");
+}  
 
 
 // 2/
 const b = 5;
 
 for (let i = 0; i <= b; i++) {
-    console.log(i);
+    console.log(b);
 }
 // 3
 const c = 22;
 
-for (let i = 7; i <= c; i++) {
-    console.log(i);
+for (let i = 7; i >= c; i++) {
+    console.log(c);
 }
 // 4
-var obj = {Коля: '200', Вася:'300', Петя: '400'};
+let obj = {Коля: '200', Вася:'300', Петя: '400'};
 
 for(key in obj){
     for (key in obj) 
@@ -29,18 +25,16 @@ for(key in obj){
 }
 
 // 5
-var d = 1000;
-var nub =0;
-while (n > 50){
+let d = 1000;
+let nub = 0;
+while (nub > 50){
     num++;
     n /= 2;
 }
-document.write();(n);
-document.write();(num);
-
+console.log();(d);
+console.log();(nub);
 // 6
 
 for (i6 = 1; i6 < 31; i6 += 7){
-    i6 += 6;
-    alert ('Сегодня пятница, ${i6} число. Необходимо подготовить отчет.')
+    alert ("Сегодня пятница, ${i6} число. Необходимо подготовить отчет.");
 }
