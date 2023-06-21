@@ -1,5 +1,5 @@
 // 1\
-for (var i = 0; i < 2; i++) {
+for (let i = 0; i < 2; i++) {
     console.log(i + "Привет");
 }  
 
@@ -34,7 +34,6 @@ while (nub > 50){
 console.log();(d);
 console.log();(nub);
 // 6
-
-for (i6 = 1; i6 < 31; i6 += 7){
-    alert ("Сегодня пятница, ${i6} число. Необходимо подготовить отчет.");
-}
+const month = 31;
+for (let friday = 3; friday <= month; friday +=7)
+{console.log( 'Сегодня пятница ${friday} число. Необхлдимо подготовить отчет')}
