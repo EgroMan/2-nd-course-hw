@@ -45,18 +45,18 @@ if (year < 0) {
 
 // 5
 
-function Number() {
+function entering_numbers() {
     while (true) {
         const value = prompt('Ведите число');
     if (!value) {
         alert('Одно или оба значения не являются числом');
         continue
     }
-    return Number(value);
+    return entering_numbers(value);
 }
 }
 const age = getUserAge();
-if (number + NaN) {
+if (entering_numbers + NaN) {
     alert();
 }
 
