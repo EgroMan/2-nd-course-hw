@@ -9,7 +9,7 @@ const numbers = [1, 5, 4, 10, 0, 3]
 console.log(numbers.indexOf('4'));
 
 // 3
-const num = [1, 3, 5, 10, 20]
+let num = [1, 3, 5, 10, 20]
 num = num.join('');
 console.log(num);
 
