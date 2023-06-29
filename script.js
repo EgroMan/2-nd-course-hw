@@ -1,7 +1,11 @@
 // 1
-let text =('руки базуки')
-console.log(text.toUpperCase());
-
+const lines = ['редиска', 'курица','селёдка', 'петрушка']
+const search = 'ре';
+lines.forEach(line => {
+    if(line.toLowerCase().start switch(search.toLowerCase())) {
+        console.log(line)
+    }
+});
 // 2
 const str = 'Мама мыла раму, мыла акуртно и бережно.'; 
 console.log(str.indexOf('м'),str.indexOf('р'));
@@ -24,7 +28,7 @@ console.log(getRandomInt(1,10))
 
 // 6
 function randomNumbersArray(length = 12){
-    return Array.fon(Array(length), () => Math.floor(Math.random() *50) +1);
+    return Array.for(Array(length), () => Math.floor(Math.random() *50) +1);
 }
 const randomarr = randomNumbersArray();
 
@@ -51,29 +55,3 @@ let myDate = new Date("28 Июня 2023");
 console.log(myDate);
 
 // 11
-let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-arr = arr.sort(() => Math.random() - 0.5);
-
-// let = prompt('Чему равнялся первый элемент массива?');
-// if ('p=0') {
-    
-// } else {
-    
-// }
-// let = prompt('Чему равнялся последний элемент массива?');
-// if ('p=1') {
-    
-// } else {
-    
-// }
-
-alert("интерестные загадки, все засисит от тебя");
-let a = prompt('Чему равнялся первый элемент массива?');
-let b = prompt('Чему равнялся последний элемент массива?');
-if (a==('p=0') || b==('p=1')); {
-    alert('Поздравляю вы дали 2 правильных ответа!!!')
-} else if(a!==('p=0') || b==('p=1'), a==('p=0') || b!==('p=1'),) {
-    alert('Вы были близки к победе!');
-} else if(a!==('p=0') || b!==('p=1'), a!==('p=0') || b!==('p=1'),) {
-    alert('Оба ответка не верны.');
-}
