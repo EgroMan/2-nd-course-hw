@@ -1,3 +1,6 @@
+function "wordsGame()"() {
+    
+
 const playButton =
 document.getElementById("playButton");
 let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
@@ -25,4 +28,5 @@ if (a==('p=0') || b==('p=1')); {
     alert('Вы были близки к победе!');
 } else if (a!==('p=0') || b!==('p=1'), a!==('p=0') || b!==('p=1'),) {
     alert('Оба ответка не верны.');
+}
 }

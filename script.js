@@ -51,7 +51,7 @@ let currentDate2 = new Date();
 currentDate2.setDate(currentDate2.getDate()+ 73);
 
 // 10
-let myDate = new Date("28 Июня 2023");
-console.log(myDate);
+let = invalidDate("28 Июня 2023");
+console.log(invalidDate);
 
 // 11
