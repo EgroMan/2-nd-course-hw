@@ -7,13 +7,9 @@ lines.forEach(line => {
     }
 });
 // 2
-const str = 'Мама мыла раму, мыла акуртно и бережно.'; 
-console.log(str.indexOf('м'),str.indexOf('р'));
-// 3
-console.log(Math.round(32.58884));
-console.log(Math.floor(32.58884));
-console.log(Math.ceil(32.58884));
-console.log(Math.trunc(32.58884));
+searchStart(['Анархия', 'Разруха', 'Анима', 'Антельхейм',], 'Ан');
+searchStart(['ДраконийФрукт', 'Апельсин', 'Шиповник', 'мандарины',], 'Дра');
+searchStart(['Китель', 'Штаны', 'Берет', 'Тельняшка',], 'Кепка');
 
 // 4
 // function getMaxOfArray[(52, 53, 49, 77, 21, 32)]; {
