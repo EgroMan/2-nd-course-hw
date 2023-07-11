@@ -1,53 +1,77 @@
-// 1
-const lines = ['редиска', 'курица','селёдка', 'петрушка']
-const search = 'ре';
-lines.forEach(line => {
-    if(line.toLowerCase().start switch(search.toLowerCase())) {
-        console.log(line)
-    }
-});
-// 2
-searchStart(['Анархия', 'Разруха', 'Анима', 'Антельхейм',], 'Ан');
-searchStart(['ДраконийФрукт', 'Апельсин', 'Шиповник', 'мандарины',], 'Дра');
-searchStart(['Китель', 'Штаны', 'Берет', 'Тельняшка',], 'Кепка');
-
-// 4
-// function getMaxOfArray[(52, 53, 49, 77, 21, 32)]; {
-//     return Math.max.apply(null), Math.min.apply(null);
-//     console.log(Math.max(), Math.min());
+const people = [
+    { name: 'Глеб', age: 29 },
+    { name: 'Анна', age: 17 },
+    { name: 'Олег', age: 7 },
+    { name: 'Оксана', age: 47 }
+];
+// function sort(array, fieldName) {
+//     array.sort((a,b)=>a[fieldName]>b[fieldName]?1:-1); 
 // }
-// 5
-function getRandomInt(minValue, maxValue){
-    return Math.random()* maxValue;
-}
-console.log(getRandomInt(1,10))
+// sort(people, "age");
+// console.log(people.sort("age"));
 
-// 6
-function randomNumbersArray(length = 12){
-    return Array.for(Array(length), () => Math.floor(Math.random() *50) +1);
+function compareNumbers(a, b) {
+    return a - b;
 }
-const randomarr = randomNumbersArray();
+console.log(people.sort(numberarr));
 
-// 7
-function getRandomItegralNumber (a, b){
-    if(a>b){c=b; b=a; a=c};
-    let arr = [];
-    for(let i=0; i <= (b-a); i++){
-    arr[i]=[Math.random(), i+a];
+// 2
+
+function isPositive(number) {
+    if (number > 0){
+    return number;}
     }
-    return arr.sort()[0][1];
-}
+    function isMale(whoIS) {
+    if(whoIS.gender == 'male'){
+        return whoIS
+    }
+    }
+    function filter(arr, ruleFunction) {
+    for( let i = 0; i< arrLength; i++){
+        return arr.filter(ruleFunction);
+    }
+    }
+    //3
+    const timer = (deadline) => {
+        const interval = setInterval(() => {
+            let currentDate = new Date();
+         console.log(currentDate);
+         }, 3000);
+        
+        
+         setTimeout(() => {
+            clearInterval(interval);
+            console.log('30 секунд прошло')
+          }, deadline * 1000)
+        };
+        
+        timer(30);
+        // 4
+        function delayForSecond(callback) {
+            setInterval(() => {
+                console.log(delayForSecond);
+            }, 1000);
+          callback();
+       }
+       
+       delayForSecond(function () {
+          console.log('Привет, Глеб!');
+       })
 
-// 8
-let currentDate = new Date();
-console.log(currentDate);
+    //    5
 
-// 9
-let currentDate2 = new Date();
-currentDate2.setDate(currentDate2.getDate()+ 73);
-
-// 10
-let = invalidDate("28 Июня 2023");
-console.log(invalidDate);
-
-// 11
+    function delayForSecond(cb) {
+        setTimeout(() => {
+            console.log('Прошла одна секунда');
+        if(cb) {  cb(); }
+    
+        }, 1000)
+    }
+    
+    function sayHi (name) {
+        console.log(`Привет, ${name}!`);
+    }
+    setTimeout(() => {
+       sayHi('Глеб'); 
+    }, 2000);
+    delayForSecond();
